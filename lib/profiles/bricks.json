@@ -1,0 +1,77 @@
+{
+  "name": "bricks",
+  "description": "Bricks Builder Theme (FemaleFuture, custom-Bricks-child sites)",
+  "selectors": [
+    {
+      "code": "HDR",
+      "color": "#ff3333",
+      "name": "Header",
+      "fallbacks": [
+        "#brx-header .brxe-section",
+        "header.brxe-section",
+        "header"
+      ]
+    },
+    {
+      "code": "NAV",
+      "color": "#ffcc00",
+      "name": "HeaderNav",
+      "fallbacks": [
+        "nav.brxe-nav-menu",
+        ".brxe-nav-menu",
+        "nav"
+      ]
+    },
+    {
+      "code": "MC",
+      "color": "#ff8800",
+      "name": "MainContainer",
+      "fallbacks": [
+        "#brx-content > section",
+        "main .brxe-container",
+        "main > section",
+        "body > main"
+      ]
+    },
+    {
+      "code": "CA",
+      "color": "#00aa00",
+      "name": "ContentArea",
+      "fallbacks": [
+        ".brxe-post-content",
+        ".entry-content",
+        "article > .brxe-container"
+      ]
+    },
+    {
+      "code": "ROW",
+      "color": "#3366ff",
+      "name": "Row",
+      "fallbacks": [
+        ".brxe-container",
+        ".brxe-section > .brxe-container",
+        ".row"
+      ]
+    },
+    {
+      "code": "PROD",
+      "color": "#aa00aa",
+      "name": "ProductGrid",
+      "fallbacks": [
+        "ul.products",
+        ".brxe-woocommerce-products",
+        ".wc-block-grid__products"
+      ]
+    },
+    {
+      "code": "FTR",
+      "color": "#0099ff",
+      "name": "Footer",
+      "fallbacks": [
+        "#brx-footer .brxe-container",
+        "footer .brxe-container",
+        "footer"
+      ]
+    }
+  ]
+}

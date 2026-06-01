@@ -1,0 +1,40 @@
+{
+  "name": "layout-snap",
+  "version": "1.0.0",
+  "description": "Annotated visual-layout audits for any website. Color-coded element boundaries, container-grid lines, measurement labels — across multiple viewports and pages in one shot.",
+  "bin": {
+    "layout-snap": "./bin/layout-snap.js"
+  },
+  "main": "./bin/layout-snap.js",
+  "scripts": {
+    "start": "node ./bin/layout-snap.js"
+  },
+  "keywords": [
+    "visual-regression",
+    "layout-audit",
+    "screenshots",
+    "playwright",
+    "responsive",
+    "design-review",
+    "annotations",
+    "wordpress",
+    "claude-code",
+    "skill"
+  ],
+  "author": "Stars Media IT GmbH <hello@starsmedia.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/starsmedia/layout-snap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/starsmedia/layout-snap/issues"
+  },
+  "homepage": "https://github.com/starsmedia/layout-snap#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "peerDependencies": {
+    "playwright": ">=1.40.0"
+  }
+}

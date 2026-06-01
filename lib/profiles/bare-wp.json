@@ -1,0 +1,80 @@
+{
+  "name": "bare-wp",
+  "description": "Default WordPress themes (Twenty-Twenty-Five, generic block themes)",
+  "selectors": [
+    {
+      "code": "HDR",
+      "color": "#ff3333",
+      "name": "Header",
+      "fallbacks": [
+        "header.wp-block-template-part",
+        ".site-header",
+        "header[role='banner']",
+        "header"
+      ]
+    },
+    {
+      "code": "NAV",
+      "color": "#ffcc00",
+      "name": "HeaderNav",
+      "fallbacks": [
+        "nav.wp-block-navigation",
+        ".main-navigation",
+        "nav[aria-label*='Main']",
+        "nav"
+      ]
+    },
+    {
+      "code": "MC",
+      "color": "#ff8800",
+      "name": "MainContainer",
+      "fallbacks": [
+        "main.wp-block-group",
+        "main > .wp-block-group",
+        "body > main",
+        "main"
+      ]
+    },
+    {
+      "code": "CA",
+      "color": "#00aa00",
+      "name": "ContentArea",
+      "fallbacks": [
+        ".entry-content",
+        "article .wp-block-post-content",
+        ".wp-block-post-content"
+      ]
+    },
+    {
+      "code": "ROW",
+      "color": "#3366ff",
+      "name": "Row",
+      "fallbacks": [
+        ".wp-block-group__inner-container",
+        ".wp-block-columns",
+        ".wp-container-1"
+      ]
+    },
+    {
+      "code": "PROD",
+      "color": "#aa00aa",
+      "name": "ProductGrid",
+      "fallbacks": [
+        "ul.products",
+        ".wc-block-grid__products",
+        ".wp-block-woocommerce-product-collection"
+      ]
+    },
+    {
+      "code": "FTR",
+      "color": "#0099ff",
+      "name": "Footer",
+      "fallbacks": [
+        "footer.wp-block-template-part",
+        ".site-footer",
+        "footer[role='contentinfo']",
+        "footer"
+      ]
+    }
+  ]
+}

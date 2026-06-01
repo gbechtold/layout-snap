@@ -1,0 +1,126 @@
+{
+  "name": "divi-wc",
+  "description": "Divi Theme + WooCommerce — most StarsMedia clients (Planet Pure, Schwanen, etc.)",
+  "selectors": [
+    {
+      "code": "HDR",
+      "color": "#ff3333",
+      "name": "Header",
+      "fallbacks": [
+        "#main-header .container",
+        "header#main-header > div.container",
+        ".et_header_style_left #main-header .container",
+        "header .container",
+        ".site-header"
+      ]
+    },
+    {
+      "code": "NAV",
+      "color": "#ffcc00",
+      "name": "HeaderNav",
+      "fallbacks": [
+        "#et-top-navigation",
+        ".et_pb_menu__menu",
+        ".main-navigation"
+      ]
+    },
+    {
+      "code": "MC",
+      "color": "#ff8800",
+      "name": "MainContainer",
+      "fallbacks": [
+        "#main-content .container",
+        "#main-content > article > .container",
+        "#main-content > .container",
+        "main > .container",
+        "body > main"
+      ]
+    },
+    {
+      "code": "CA",
+      "color": "#00aa00",
+      "name": "ContentArea",
+      "fallbacks": [
+        "#content-area",
+        "#left-area",
+        ".entry-content",
+        ".wp-block-woocommerce-cart",
+        ".wp-block-woocommerce-checkout"
+      ]
+    },
+    {
+      "code": "ROW",
+      "color": "#3366ff",
+      "name": "Row",
+      "fallbacks": [
+        ".et_pb_row",
+        ".et_pb_section .et_pb_row",
+        ".row"
+      ]
+    },
+    {
+      "code": "PROD",
+      "color": "#aa00aa",
+      "name": "ProductGrid",
+      "fallbacks": [
+        "ul.products",
+        ".woocommerce ul.products",
+        ".products-grid",
+        ".wc-block-grid__products"
+      ]
+    },
+    {
+      "code": "FTR",
+      "color": "#0099ff",
+      "name": "Footer",
+      "fallbacks": [
+        "#main-footer .container",
+        "#main-footer > .container",
+        "footer .container",
+        ".site-footer"
+      ]
+    }
+  ],
+  "sub_selectors": [
+    {
+      "code": "h1",
+      "name": "Headline1",
+      "fallbacks": ["h1.entry-title", "h1.product_title", ".et_pb_text_inner h1", "h1"]
+    },
+    {
+      "code": "h2",
+      "name": "Headline2",
+      "fallbacks": [".et_pb_text_inner h2", "h2.entry-title", "h2"]
+    },
+    {
+      "code": "h3",
+      "name": "Headline3",
+      "fallbacks": [".et_pb_text_inner h3", "h3"]
+    },
+    {
+      "code": "card",
+      "name": "ProductCard",
+      "fallbacks": ["li.product", ".woocommerce ul.products li", ".product"]
+    },
+    {
+      "code": "img",
+      "name": "Image",
+      "fallbacks": [".attachment-woocommerce_thumbnail", ".et_pb_image_wrap img", ".woocommerce-product-gallery__image img", ".wp-block-image img", "img"]
+    },
+    {
+      "code": "price",
+      "name": "PriceTag",
+      "fallbacks": [".woocommerce-Price-amount", ".price .amount", ".price", ".amount"]
+    },
+    {
+      "code": "btn",
+      "name": "Button",
+      "fallbacks": [".et_pb_button", ".single_add_to_cart_button", ".checkout-button", ".wc-block-cart__submit-button", "button.button", "a.button"]
+    },
+    {
+      "code": "form",
+      "name": "FormField",
+      "fallbacks": ["input[type='text']", "input[type='email']", "input[type='tel']", "input[type='search']", "select", "textarea"]
+    }
+  ]
+}
