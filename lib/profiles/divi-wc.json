@@ -74,6 +74,9 @@
       "color": "#0099ff",
       "name": "Footer",
       "fallbacks": [
+        ".pp-global-footer .et_pb_row",
+        ".pp-global-footer .et_pb_section",
+        ".pp-global-footer",
         "#main-footer .container",
         "#main-footer > .container",
         "footer .container",
